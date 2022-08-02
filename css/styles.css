@@ -1,11 +1,15 @@
-
+html {
+  margin: 0;
+  background-color: #E4E9FD;
+}
 body {
+  background-color: #E4E9FD;
   text-align: center;
 }
 
 /* Coloured Sections */
 .coloured-section {
-  background-color: #ff4c68;
+  background-color: #06113C;
   color: #fff;
 }
 
@@ -38,7 +42,7 @@ div.col-lg-4 h3 {
 }
 
 div.col-lg-4 p {
-  color: #8f8f8f;
+  color: #06113C;
 }
 
 /* Navigation Bar */
@@ -97,8 +101,12 @@ div.col-lg-4 p {
 
 /* second section */
 #features {
-  background-color: #fff;
+  background-color: #E4E9FD;
   position: relative;
+}
+
+#feature h3{
+  color: #06113C;
 }
 
 div.container-fluid.row {
@@ -111,16 +119,16 @@ div.col-lg-4 {
 }
 
 i.icon {
-  color: #ef8172;
+  color: #06113C;
 }
 
 i.icon:hover {
-  color: #ff4c68;
+  color: #293462;
 }
 
 /* Testinomials */
 #testimonials {
-  background-color: #ef8172;
+  background-color: #06113C;
 }
 
 .carousel-item {
@@ -134,7 +142,7 @@ i.icon:hover {
 }
 
 #press {
-  background-color: #ef8172;
+  background-color: #06113C;
   padding-bottom: 3%;
 }
 
@@ -148,6 +156,13 @@ i.icon:hover {
   padding: 60px 40px;
 }
 
+#pricing h2,h3{
+  color: #06113C;
+}
+#pricing p{
+  color: #06113C;
+}
+
 .pricing-font-style {
   font-family: "Montserrat-Bold", sans-serif;
   font-weight: bold;
@@ -156,6 +171,9 @@ i.icon:hover {
 /* Call to Action */
 #cta {
   padding: 7% 15%;
+}
+#cta strong{
+  color: #fff;
 }
 
 section>h3 {
@@ -168,9 +186,9 @@ section>h3 {
 /* footer section */
 #footer {
   font-family: "Montserrat-Bold", sans-serif;
-  color: #8f8f8f;
-  background-color: #fff;
-  margin: 5% auto;
+  color: #06113C;
+  background-color: #E4E9FD;
+  margin: 2% auto;
 }
 
 footer p {
@@ -178,7 +196,7 @@ footer p {
 }
 
 .logo {
-  color: #2C3333;
+  color: #06113C;
   margin: 20px 10px;
   font-size: 2rem;
   padding: 5px 5px;
@@ -186,5 +204,5 @@ footer p {
 
 .logo:hover {
   color: black;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
